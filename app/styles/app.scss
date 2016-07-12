@@ -1,0 +1,149 @@
+
+// Bootstrap Variables
+$icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
+
+// Import Bootstrap
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+img {
+  max-width: 100%;
+}
+//Form
+.recipe-form{
+  text-align: center;
+}
+//fonts
+span, h3{
+  color: white;
+font-family: 'Poiret One', cursive;
+}
+a, span {
+  font-family: 'Amiko', sans-serif;
+}
+//Button
+.btn{
+  line-height: 10px;
+  margin-left: 5px;
+}
+// List
+
+.recipe-list{
+  text-align: center;
+  list-style: none;
+}
+//User login
+.main-login{
+  background-image: url('http://lilihabakeryhawaii.com/images/food/baked_goods/full_size/assorted_danish.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 800px;
+}
+.main-header{
+  background-color: rgba(103,64,32,0.6);
+}
+// User login
+.login-complete{
+  display: block;
+  margin-left: 275px;
+  border: 2px solid rgba(0,0,0,0.4);
+  background-color: rgba(103,64,32,0.6);
+  height: 300px;
+}
+.signmeup{
+  display: block;
+  margin-top: 15px;
+  margin-right: 304px;
+  margin-left: 376px;
+  border: 2px solid rgba(0, 0, 0, 0.4);
+  background-color: rgba(103, 64, 32, 0.6);
+  height: 300px;
+}
+.logmein{
+  margin-left: 100px;
+}
+.users{
+  background-color: rgba(0,0,0,0.4);
+  font-size: 12px;
+}
+.passage{
+  background-color: rgba(0,0,0,0.4);
+  font-size: 12px;
+  margin-left: 5px;
+}
+.btn{
+  background-color: rgba(0,0,0,0.4);
+  font-size: 12px;
+  display: block;
+  color: white;
+  margin-left: 61px;
+  margin-top: 5px;
+}
+.create-user{
+  background-color: rgba(0,0,0,0.4);
+  font-size: 12px;
+}
+.access-granted{
+  background-color: rgba(0,0,0,0.4);
+  font-size: 12px;
+}
+// Recipe page
+.list-ingr{
+  margin-top: 50px;
+}
+// top header
+.robust-flavor{
+  background-color: rgba(0,0,0,0.6);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid black;
+}
+
+.llc{
+  padding-left: 20px;
+  color: white;
+  font-size: 15px;
+}
+//Form
+.holding{
+  margin-left: 200px;
+  background-color: rgba(0,0,0,0.6);
+  height: 200px;
+  width: 372px;
+}
+.btn{
+  margin-left: 124px;
+}
+.servings{
+  width: 50px;
+}
+.make{
+  margin-right: 8px;
+}
+.how-many{
+  margin-left: 8px;
+}
+.wrapper{
+  background-image: url('http://slodive.com/wp-content/uploads/2012/04/wood-background/wood-dark-background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 800px;
+}
+.container-fluid{
+  padding: 0;
+}
+//Side navigate
+.sidebar-links{
+  margin-top: 50px;
+  list-style: none;
+  //background-color: rgba(128,128,128, 0.4);
+}
