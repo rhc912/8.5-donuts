@@ -45,7 +45,7 @@ var UserLoginComponent = React.createClass({
   <div className="main-login container-fluid">
     <header className="main-header well well-sm">
       <span>Robust Flavor Calculations, LLC</span>
-      <a href='#recipe'>Calculator</a>
+    <button type="submit" className="calculator btn btn-default navbar-btn"><a href='#recipes/'>My Recipes</a></button>
     </header>
 
     <div className="logmein row">
@@ -56,7 +56,7 @@ var UserLoginComponent = React.createClass({
           <span>Username:</span><input type="text" className="users form-control"placeholder="Username"></input>
           <br />
         <span>Password:</span><input type="text" className="passage form-control"placeholder="Password"></input>
-            <button type="submit" className="btn btn-default">Login</button>
+            <button type="button" className="btn btn-default navbar-btn">Login</button>
         </div>
 
 

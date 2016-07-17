@@ -62,7 +62,7 @@ a, span {
 .signmeup{
   display: block;
   margin-top: 15px;
-  margin-right: 304px;
+  margin-right: 278px;
   margin-left: 376px;
   border: 2px solid rgba(0, 0, 0, 0.4);
   background-color: rgba(103, 64, 32, 0.6);
@@ -107,21 +107,54 @@ a, span {
   padding-bottom: 10px;
   border: 1px solid black;
 }
-
+.login{
+  margin-left: 15px;
+  text-decoration: underline;
+}
 .llc{
+  margin-top: -10px;
   padding-left: 20px;
   color: white;
   font-size: 15px;
 }
 //Form
-.holding{
-  margin-left: 200px;
+// .holding{
+//   margin-left: 200px;
+//   background-color: rgba(0,0,0,0.6);
+//   height: 200px;
+//   width: 372px;
+// }
+.amount{
   background-color: rgba(0,0,0,0.6);
-  height: 200px;
-  width: 372px;
+  color: white;
+}
+.ingr-place{
+  background-color: rgba(0,0,0,0.6);
+  color: white;
+}
+.unit{
+  background-color: rgba(0,0,0,0.6);
+  color: white;
+}
+.ingredient-wrapper{
+     margin-left: 120px;
+    background-color: rgba(0,0,0,0.6);
+    height: 200px;
+    width: 372px;
+
+}
+.ingr-heading{
+  color: whitesmoke;
+  text-align: center;
+  border-bottom: 2px solid grey;
 }
 .btn{
   margin-left: 124px;
+}
+.calculator{
+  display: inline;
+  float: right;
+  margin-top: -2px;
 }
 .servings{
   width: 50px;
@@ -133,17 +166,47 @@ a, span {
   margin-left: 8px;
 }
 .wrapper{
-  background-image: url('http://slodive.com/wp-content/uploads/2012/04/wood-background/wood-dark-background.jpg');
+  background-image: url('https://zeliciousrecipes.files.wordpress.com/2015/11/pasta-ingredients-000059796094_full1-e1448304522241.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  height: 800px;
+
 }
 .container-fluid{
   padding: 0;
 }
 //Side navigate
 .sidebar-links{
-  margin-top: 50px;
+  padding-top: 60px;
+  margin-top: 0px;
   list-style: none;
-  //background-color: rgba(128,128,128, 0.4);
+  background-color: rgba(0,0,0, 0.4);
+  height: 720px;
+}
+//Recipe list
+.lister{
+  border-bottom: 2px solid black;
+}
+//Add recipe description box
+.description{
+  height: 300px;
+  border: 2px solid grey;
+  margin-top: 15px;
+  background-color: rgba(0,0,0,0.6);
+}
+.tell{
+width: 96%;
+height: 200px;
+margin-top: 5px;
+margin-left: 14px;
+background-color: rgba(0,0,0, 0.4);
+color: white;
+}
+.title-input{
+  background-color: rgba(0,0,0,0.4);
+  color: white;
+  border: none;
+  height: 68px;
+  font-size: 43px;
+  text-align: center;
+  margin-top: 227px;
 }
